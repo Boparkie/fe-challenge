@@ -1,0 +1,21 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.container {
+
+}
+
+.time {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
