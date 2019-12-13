@@ -17,6 +17,13 @@ h2 {
   letter-spacing: 1px;
 }
 
+@media screen and (min-width: 575px){
+h2 {
+  font-size: 28px;
+  padding-top: 33px;
+  }
+}
+
 h3 {
   padding-left: 130%;
   margin-top: -45%;
@@ -26,12 +33,34 @@ h3 {
   letter-spacing: 1px;
 }
 
+@media screen and (min-width: 575px){
+h3 {
+  width: 400px;
+  margin-top: -35%;
+  font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 991px){
+h3 {
+  margin-top: -40%;
+  margin-left: 15%;
+  }
+}
+
 h4 {
    color: #808080;
    font-weight: 200;
    font-size: 18px;
    padding-left: 35px;
    padding-top: 10px;
+}
+
+@media screen and (min-width: 575px){
+h4 {
+  margin-left: 14px;
+  padding-top: 14px;
+  }
 }
 
 h5 {
@@ -44,12 +73,40 @@ h5 {
   padding-left: 130%;
 }
 
+@media screen and (min-width: 575px){
+h5 {
+   font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 991px){
+h5 {
+  padding-top: 10%;
+  font-size: 18px;
+  padding-left: 145%;
+  }
+}
+
 hr {
   border-width: 0.5px;
   color: #f8f8f8;
   margin-left: 21%;
   margin-top: -5px;
   margin-bottom: -5px;
+}
+
+@media screen and (min-width: 575px){
+hr {
+  margin-bottom: -10px;
+  margin-top: -15px;
+  }
+}
+
+@media screen and (min-width: 991px){
+hr {
+  margin-left: 16%;
+  margin-right: 15%;
+  }
 }
 
 .arrival {
@@ -60,14 +117,88 @@ hr {
   width: 80px;
 }
 
-/* last 3 rows need more spacing between time and arrow */
+@media screen and (min-width: 575px){
+.arrival {
+  margin-left: 610%;
+  margin-top: -38%;
+  font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.arrival {
+  margin-left: 770%;
+  }
+}
+
+.axe {
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 475%;
+  margin-top: -45%;
+  width: 80px;
+}
+
+@media screen and (min-width: 575px){
+.axe {
+  margin-left: 605%;
+  margin-top: -38%;
+  font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.axe {
+  margin-left: 765%;
+  }
+}
+
 .bus-list {
   width: 16%;
   height: 66px;
   background: #0080ff;
   margin: 15px 9px;
-  border-radius: 12px;
+  border-radius: 15px;
   margin-bottom: 15px;
+}
+
+@media screen and (min-width: 575px){
+.bus-list {
+  width: 13%;
+  height: 100px;
+  border-radius: 23px;
+  margin: 25px 0 30px 35px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.bus-list {
+  width: 8%;
+  height: 102px;
+  margin-left: 205px;
+  }
+}
+
+.hay {
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 470%;
+  margin-top: -45%;
+  width: 80px;
+}
+
+@media screen and (min-width: 575px){
+.hay {
+  margin-left: 600%;
+  margin-top: -38%;
+  font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.hay {
+  margin-left: 760%;
+  }
 }
 
 .left-arrow {
@@ -77,13 +208,32 @@ hr {
   font-size: 25px;
 }
 
-/* search icon; needs to stay fixed, tried width & bottom.. */
+@media screen and (min-width: 575px){
+.left-arrow {
+  margin-left: 16px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.left-arrow {
+  visibility: hidden;
+  }
+}
+
 .mag {
   color: #9d9d9d;
   font-size: 16px;
   margin-top: -4%;
   margin-left: 3%;
   position: static;
+}
+
+@media screen and (min-width: 575px){
+.mag {
+  margin-top: -18px;
+  margin-left: 2%;
+  font-size: 18px;
+  }
 }
 
 /* alarm */
@@ -95,10 +245,58 @@ hr {
   float: right;
 }
 
+@media screen and (min-width: 575px){
+.moon {
+  margin-right: 26px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.moon {
+  margin-right: 195px;
+  }
+}
+
+.no-info {
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 525%;
+  margin-top: -45%;
+  width: 55px;
+}
+
+@media screen and (min-width: 575px){
+.no-info {
+  margin-left: 645%;
+  margin-top: -38%;
+  font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.no-info {
+  margin-left: 800%;
+  }
+}
+
 .orin {
   margin-top: -17px;
   margin-left: 580%;
   color: #0080ff;
+}
+
+@media screen and (min-width: 575px){
+.orin {
+  margin-left: 690%;
+  margin-top: -18px;
+  font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.orin {
+  margin-left: 850%;
+  }
 }
 
 /* map */
@@ -109,13 +307,46 @@ hr {
   font-weight: 250;
 }
 
-/* width is slightly short on the right when in responsive mode, position? */
+@media screen and (min-width: 575px){
+.salem {
+  margin-left: 36px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.salem {
+  margin-left: 205px;
+  }
+}
+
 .search-bar {
    border-radius: 8px;
    width: 96%;
    height: 38px;
    background: #f2f2f2;
    margin: 25px 10px 20px 10px;
+}
+
+@media screen and (min-width: 575px){
+.search-bar {
+  width: 91%;
+  margin-left: 36px;
+  height: 43px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.search-bar {
+  width: 69%;
+  margin-left: 16%;
+  margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.split {
+  margin-left: 50%;
+  }
 }
 
 .time {
@@ -125,6 +356,18 @@ hr {
   font-weight: 500;
 }
 
+@media screen and (min-width: 575px){
+.time {
+  margin-left: -91%;
+  }
+}
+
+@media screen and (min-width: 991px){
+.time {
+  visibility: hidden;
+  }
+}
+
 .title {
   text-align: center;
   font-size: 19px;
@@ -132,14 +375,15 @@ hr {
 }
 
 @media screen and (min-width: 575px){
-.bus-list {
-  width: 13%;
-  height: 100px;
-  border-radius: 20px;
-  margin: 20px 0 30px 20px;
+.title {
+  padding-top: 20px;
+  }
 }
 
-h2 {
-  font-size: 28px;
-  padding-
+@media screen and (min-width: 991px){
+.title {
+  padding-top: 35px;
+  padding-bottom: 30px;
+  font-size: 22px;
+  }
 }
