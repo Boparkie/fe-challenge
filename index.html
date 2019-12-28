@@ -8,152 +8,137 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/1b1947084f.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
-    <section>
-      <nav>
-        <div class="time">
-          <h6>2:05 PM</h6>
-        </div>
-        <div class="title">
-          <h1>Washington/State</h1>
-        </div>
-        <div class="left-arrow">
-          <i class="fas fa-chevron-left"></i>
-        </div>
-        <div class="salem">
-          <p>Map</p>
-        </div>
-        <div class="moon">
-          <p>Alarm</p>
-        </div>
-        <div class="search-bar">
-          <h4>Let's get busy bus!</h4>
-            <div class="mag">
-              <i class="fas fa-search"></i>
-            </div>
-        </div>
-      </nav>
-    </section>
+    <header>
+      <h6>2:05 PM</h6>
+      <div class="left-arrow">
+        <i class="fas fa-chevron-left"></i>
+      </div>
+      <h2>Map</h2>
+      <h1>Washington/State</h1>
+      <h3>Alarm</h3>
+      <div class="mag">
+        <i class="fas fa-search"></i>
+      </div>
+      <h4 class="search-bar">Let's get busy bus!</h4>
+    </header>
 
-    <div class="bus-list">
-      <h2>60</h2>
-      <h3>Randolph/Harbor Dr</h3>
-      <h5>Eastbound</h5>
-      <div class="freq">
-        <p>Arriving every 20 mins</p>
-      </div>
-      <div class="arrival">
-        <p>2:25 PM</p>
-      </div>
-      <div class="orin">
-        <i class="fas fa-chevron-right"></i>
-      </div>
-    </div>
-<hr>
-    <div class="bus-list">
-      <h2>124</h2>
-      <h3>Navy Pier</h3>
-      <h5>Eastbound/Southbound</h5>
-      <div class="freq">
-        <p>Arriving every 10 mins</p>
-      </div>
-      <div class="arrival">
-        <p>2:15 PM</p>
-      </div>
-      <div class="orin">
-        <i class="fas fa-chevron-right"></i>
-      </div>
-    </div>
-<hr>
-    <div class="bus-list">
-      <h2>J14</h2>
-      <h3>103rd/Stony Island</h3>
-      <h5>Southbound</h5>
-      <div class="freq">
-        <p>Arriving every 15 mins</p>
-      </div>
-      <div class="arrival">
-        <p>2:20 PM</p>
-      </div>
-      <div class="orin">
-        <i class="fas fa-chevron-right"></i>
-      </div>
-    </div>
-<hr>
-    <div class="bus-list">
-      <h2>151</h2>
-      <h3>Devon/Clark</h3>
-      <h5>Northbound</h5>
-      <div class="freq">
-        <p>Arriving every 16 mins</p>
-      </div>
-      <div class="arrival">
-        <p>2:21 PM</p>
-      </div>
-      <div class="orin">
-        <i class="fas fa-chevron-right"></i>
-      </div>
-    </div>
-<hr>
-    <div class="bus-list">
-      <h2>6x</h2>
-      <h3>Jackson Park Express</h3>
-      <div class="boldy">
-        <p>Reroute</p>
-      </div>
-      <div class="no-info">
-        <p>N/A</p>
-      </div>
-      <div class="orin">
-        <i class="fas fa-chevron-right"></i>
-      </div>
-    </div>
-<hr>
-    <div class="bus-list">
-      <h2>4</h2>
-      <h3>Cottage Grove</h3>
-      <div class="boldy">
-        <p>Out of service</p>
-      </div>
-      <div class="hay">
-        <p>12:10 AM</p>
-      </div>
-      <div class="orin">
-        <i class="fas fa-chevron-right"></i>
-      </div>
-    </div>
+    <ul>
+      <li class="bus-list">
+        <ul>
+          <li class="number">60</li>
+          <li class="city">Randolph/Harbor Dr</li>
+          <li class="bound">Eastbound</li>
+          <li class="freq">Arriving every 20 mins</li>
+          <li class="arrival">2:25 PM</li>
+          <div class="orin">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </ul>
+      </li>
 
 <hr>
-    <div class="bus-list">
-      <h2>20</h2>
-      <h3>Madison</h3>
-      <div class="boldy">
-        <p>Out of service</p>
-      </div>
-      <div class="hay">
-        <p>12:10 AM</p>
-      </div>
-      <div class="orin">
-        <i class="fas fa-chevron-right"></i>
-      </div>
-    </div>
-<hr>
-    <div class="bus-list">
-      <h2>157</h2>
-      <h3>Streeterville/Taylor</h3>
-      <div class="boldy">
-        <p>Out of service</p>
-      </div>
-      <div class="axe">
-        <p>6:00 AM</p>
-      </div>
-      <div class="orin">
-        <i class="fas fa-chevron-right"></i>
-      </div>
-    </div>
 
-    </div>
-    </section>
+      <li class="bus-list">
+        <ul>
+          <li class="number">124</li>
+          <li class="city">Navy Pier</li>
+          <li class="bound">Eastbound/Southbound</li>
+          <li class="freq">Arriving every 10 mins</li>
+          <li class="arrival">2:15 PM</li>
+          <div class="orin">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </ul>
+      </li>
+
+<hr>
+
+      <li class="bus-list">
+        <ul>
+          <li class="number">J14</li>
+          <li class="city">103rd/Stony Island</li>
+          <li class="bound">Southbound</li>
+          <li class="freq">Arriving every 15 mins</li>
+          <li class="arrival">2:20 PM</li>
+          <div class="orin">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </ul>
+      </li>
+
+<hr>
+
+      <li class="bus-list">
+        <ul>
+          <li class="number">151</li>
+          <li class="city">Devon/Clark</li>
+          <li class="bound">Northbound</li>
+          <li class="freq">Arriving every 16 mins</li>
+          <li class="arrival">2:21 PM</li>
+          <div class="orin">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </ul>
+      </li>
+
+<hr>
+
+      <li class="bus-list">
+        <ul>
+          <li class="number">6x</li>
+          <li class="city">Jackson Park Express</li>
+          <li class="boldy">Reroute</li>
+          <li class="no-info">N/A</li>
+          <div class="orin">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </ul>
+      </li>
+
+<hr>
+
+      <li class="bus-list">
+        <ul>
+          <li class="number">4</li>
+          <li class="city">Cottage Grove</li>
+          <li class="boldy">Out of service</li>
+          <li class="hay">12:10 AM</li>
+          <div class="orin">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </ul>
+      </li>
+
+<hr>
+      <li class="bus-list">
+        <ul>
+          <li class="number">20</li>
+          <li class="city">Madison</li>
+          <li class="boldy">Out of service</li>
+          <li class="hay">12:10 AM</li>
+          <div class="orin">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </ul>
+      </li>
+
+<hr>
+
+      <li class="bus-list">
+        <ul>
+          <li class="number">157</li>
+          <li class="city">Streeterville/Taylor</li>
+          <li class="boldy">Out of service</li>
+          <li class="axe">6:00 AM</li>
+          <div class="orin">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </ul>
+      </li>
+    </ul>
+
   </body>
 </html>
 </>
