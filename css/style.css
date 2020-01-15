@@ -93,7 +93,7 @@ h6 {
   text-align: center;
 }
 
-@media screen and (min-width: 575px){
+@media screen and (min-width: 575px){  /* negative margin */
 h6 {
   margin-left: -91%;
   }
@@ -109,11 +109,11 @@ hr {
   border-width: 0.5px;
   color: #f8f8f8;
   margin-left: 21%;
-  margin-top: -5px;
+  margin-top: -5px;      /* fix this negative margin */
   margin-bottom: -5px;
 }
 
-@media screen and (min-width: 575px){
+@media screen and (min-width: 575px){   /* fix this negative margin */
 hr {
   margin-bottom: -10px;
   margin-top: -15px;
@@ -147,7 +147,7 @@ hr {
   color: #404040;
   font-weight: 400;
   letter-spacing: 1px;
-  margin-top: -60%;
+  margin-top: -60%;     /* fix this negative margin */
   padding-left: 130%;
   width: 350px;
 }
@@ -155,14 +155,14 @@ hr {
 @media screen and (min-width: 575px){
 .city {
   font-size: 22px;
-  margin-top: -35%;
+  margin-top: -35%;   /* fix this negative margin */
   width: 400px;
   }
 }
 
 @media screen and (min-width: 991px){
 .city {
-  margin-top: -40%;
+  margin-top: -40%;   /* fix this negative margin */
   margin-left: 15%;
   }
 }
@@ -174,7 +174,7 @@ hr {
   font-weight: 300;
   letter-spacing: 1px;
   padding-top: 10%;
-  padding-left: 130%;
+  padding-left: 130%;   /* fix this padding */
   width: 300px;
 }
 
@@ -188,7 +188,7 @@ hr {
 .bound {
   font-size: 18px;
   padding-top: 10%;
-  padding-left: 145%;
+  padding-left: 145%;  /* fix this padding */
   }
 }
 
@@ -196,7 +196,7 @@ hr {
 .arrival {
   font-size: 16px;
   font-weight: 300;
-  margin-left: 430%;
+  margin-left: 430%;      /* fix this margin */
   margin-top: -52%;
   width: 80px;
 }
@@ -205,13 +205,13 @@ hr {
 .arrival {
   font-size: 18px;
   margin-left: 610%;
-  margin-top: -38%;
+  margin-top: -38%;  /* fix this margin */
   }
 }
 
 @media screen and (min-width: 991px){
 .arrival {
-  margin-left: 770%;
+  margin-left: 770%;   /* fix this padding */
   }
 }
 
@@ -219,21 +219,21 @@ hr {
   font-size: 16px;
   font-weight: 300;
   margin-left: 425%;
-  margin-top: -20%;
+  margin-top: -20%;    /* fix this negative margin */
   width: 80px;
 }
 
 @media screen and (min-width: 575px){
 .axe {
   font-size: 18px;
-  margin-left: 605%;
+  margin-left: 605%;  /* fix this padding */
   margin-top: -38%;
   }
 }
 
 @media screen and (min-width: 991px){
 .axe {
-  margin-left: 765%;
+  margin-left: 765%;  /* fix this padding */
   }
 }
 
@@ -269,6 +269,10 @@ hr {
   margin-bottom: 15px;
 }
 
+.bus-list:nth-last-child(-n+7) {
+  background: #808080;
+}
+
 @media screen and (min-width: 575px){
 .bus-list {
   border-radius: 23px;
@@ -291,7 +295,7 @@ hr {
   font-size: 16px;
   font-weight: 300;
   margin-left: 420%;
-  margin-top: -25%;
+  margin-top: -25%;    /* fix this negative margin */
   width: 80px;
 }
 
@@ -372,7 +376,7 @@ hr {
   font-size: 16px;
   font-weight: 300;
   margin-left: 470%;
-  margin-top: -25%;
+  margin-top: -25%;    /*  fix this negative margin */
   width: 50px;
 }
 
@@ -392,9 +396,13 @@ hr {
 
 .orin {
   color: #0080ff;
-  margin-top: -17px;
+  margin-top: -17px;    /* fix this negative margin */
   margin-left: 520%;
   }
+}
+
+.orin:nth-last-child(-n+7) {   /* why isn't color working */
+  color: #808080;
 }
 
 @media screen and (min-width: 575px){
