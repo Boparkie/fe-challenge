@@ -12,7 +12,7 @@ h1 {
   font-size: 19px;
   font-weight: 500;
   margin-left: 30%;
-  padding-top: 3px;
+  padding-top: 40px;
 }
 
 @media screen and (min-width: 575px){
@@ -35,7 +35,7 @@ h2 {
   float: left;
   font-weight: 250;
   margin-top: 3px;
-  margin-left: 6px;
+  padding-top: 40px;
 
 }
 
@@ -86,24 +86,6 @@ h4 {
   }
 }
 
-h6 {
-  font-size: 13px;
-  font-weight: 500;
-  padding: 5px 0 20px 0;
-  text-align: center;
-}
-
-@media screen and (min-width: 575px){  /* negative margin */
-h6 {
-  margin-left: -91%;
-  }
-}
-
-@media screen and (min-width: 991px){
-h6 {
-  visibility: hidden;
-  }
-}
 
 hr {
   border-width: 0.5px;
@@ -341,6 +323,7 @@ hr {
   float: left;
   font-size: 25px;
   margin-left: 10px;
+  padding-top: 40px;
 }
 
 @media screen and (min-width: 575px){
@@ -357,10 +340,11 @@ hr {
 
 .mag {
   color: #9d9d9d;
-  float: left;
   font-size: 16px;
-  margin-top: 8%;
   position: static;
+  margin-left: 0;
+  margin-top: 95px;
+  float: left;
 }
 
 @media screen and (min-width: 575px){
@@ -401,7 +385,7 @@ hr {
   }
 }
 
-.orin:nth-last-child(-n+7) {   /* why isn't color working */
+.orin:nth-last-child(-n+3) {   /* why isn't color working */
   color: #808080;
 }
 
@@ -424,7 +408,7 @@ hr {
    border-radius: 8px;
    background: #f2f2f2;
    height: 38px;
-   margin: 20px 10px 20px 10px;
+   margin: 20px 10px;
    width: 96%;
 }
 
