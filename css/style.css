@@ -36,7 +36,7 @@ h2 {
   font-weight: 250;
   margin-top: 3px;
   padding-top: 40px;
-
+  margin-left: 5px;
 }
 
 @media screen and (min-width: 575px){
@@ -75,8 +75,9 @@ h4 {
    color: #808080;
    font-weight: 200;
    font-size: 18px;
-   padding-left: 40px;
-   padding-top: 10px;
+   padding-left: 7px;
+   padding-top: 9px;
+   display: inline-block;
 }
 
 @media screen and (min-width: 575px){
@@ -95,7 +96,7 @@ hr {
   margin-bottom: -5px;
 }
 
-@media screen and (min-width: 575px){   /* fix this negative margin */
+@media screen and (min-width: 575px){
 hr {
   margin-bottom: -10px;
   margin-top: -15px;
@@ -106,71 +107,6 @@ hr {
 hr {
   margin-left: 16%;
   margin-right: 15%;
-  }
-}
-
-.number {
-  color: white;
-  font-size: 25px;
-  font-weight: 600;
-  text-align: center;
-  padding-top: 24px;
-  letter-spacing: 1px;
-}
-
-@media screen and (min-width: 575px){
-.number {
-  font-size: 28px;
-  padding-top: 33px;
-  }
-}
-
-.city {
-  color: #404040;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin-top: -60%;     /* fix this negative margin */
-  padding-left: 130%;
-  width: 350px;
-}
-
-@media screen and (min-width: 575px){
-.city {
-  font-size: 22px;
-  margin-top: -35%;   /* fix this negative margin */
-  width: 400px;
-  }
-}
-
-@media screen and (min-width: 991px){
-.city {
-  margin-top: -40%;   /* fix this negative margin */
-  margin-left: 15%;
-  }
-}
-
-
-.bound {
-  color: #404040;
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  padding-top: 10%;
-  padding-left: 130%;   /* fix this padding */
-  width: 300px;
-}
-
-@media screen and (min-width: 575px){
-.bound {
-   font-size: 20px;
-  }
-}
-
-@media screen and (min-width: 991px){
-.bound {
-  font-size: 18px;
-  padding-top: 10%;
-  padding-left: 145%;  /* fix this padding */
   }
 }
 
@@ -242,6 +178,31 @@ hr {
   }
 }
 
+.bound {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-top: 10%;
+  padding-left: 130%;   /* fix this padding */
+  width: 300px;
+
+}
+
+@media screen and (min-width: 575px){
+.bound {
+   font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.bound {
+  font-size: 18px;
+  padding-top: 10%;
+  padding-left: 145%;  /* fix this padding */
+  }
+}
+
 .bus-list {
   background: #0080ff;
   border-radius: 18px;
@@ -269,6 +230,30 @@ hr {
   height: 102px;
   margin-left: 205px;
   width: 8%;
+  }
+}
+
+.city {
+  color: #404040;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: -60%;     /* fix this negative margin */
+  padding-left: 130%;
+  width: 350px;
+}
+
+@media screen and (min-width: 575px){
+.city {
+  font-size: 22px;
+  margin-top: -35%;   /* fix this negative margin */
+  width: 400px;
+  }
+}
+
+@media screen and (min-width: 991px){
+.city {
+  margin-top: -40%;   /* fix this negative margin */
+  margin-left: 15%;
   }
 }
 
@@ -324,6 +309,7 @@ hr {
   font-size: 25px;
   margin-left: 10px;
   padding-top: 40px;
+  display: inline-block;
 }
 
 @media screen and (min-width: 575px){
@@ -336,13 +322,6 @@ hr {
 .left-arrow {
   visibility: hidden;
   }
-}
-
-.search-bar i {
-  color: #808080;
-  font-size: 18px;
-  margin-left: 15px;
-  margin-top: 1px;
 }
 
 
@@ -368,6 +347,24 @@ hr {
   }
 }
 
+
+.number {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 24px;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 575px){
+.number {
+  font-size: 28px;
+  padding-top: 33px;
+  }
+}
+
+
 .orin {
   color: #0080ff;
   margin-top: -17px;    /* fix this negative margin */
@@ -375,9 +372,10 @@ hr {
   }
 }
 
-.orin:nth-last-child(-n+3) {   /* why isn't color working */
+.orin:nth-last-child(-n+7) {    /* why isn't color working */
   color: #808080;
 }
+
 
 @media screen and (min-width: 575px){
 .orin {
@@ -416,6 +414,12 @@ hr {
   margin-bottom: 40px;
   width: 69%;
   }
+}
+
+.search-bar i {
+  font-size: 17px;
+  color: #808080;
+  margin-left: 10px;
 }
 
 @media screen and (min-width: 991px){
