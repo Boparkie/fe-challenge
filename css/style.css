@@ -372,9 +372,7 @@ hr {
   }
 }
 
-.orin:nth-last-child(-n+7) {    /* why isn't color working */
-  color: #808080;
-}
+
 
 
 @media screen and (min-width: 575px){
