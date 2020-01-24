@@ -56,7 +56,7 @@ h3 {
   color: #0080ff;
   font-weight: 250;
   margin-left: 85%;
-  margin-top: -4%;
+  margin-top: -4%;    /* this negative margin needs fixin */
 }
 
 @media screen and (min-width: 575px){
@@ -369,10 +369,7 @@ hr {
   color: #0080ff;
   margin-top: -17px;    /* fix this negative margin */
   margin-left: 520%;
-  }
 }
-
-
 
 
 @media screen and (min-width: 575px){
@@ -389,6 +386,11 @@ hr {
   }
 }
 
+.orin-gray {
+  color: #808080;
+  margin-top: -17px;
+  margin-left: 520%;
+}
 
 .search-bar {
    border-radius: 8px;
