@@ -11,343 +11,107 @@ body {
 h1 {
   font-size: 19px;
   font-weight: 500;
-  margin-left: 30%;
-  padding-top: 40px;
 }
 
-@media screen and (min-width: 575px){
-h1 {
-  padding-top: 20px;
-  }
+li{
+  list-style: none;
+  text-decoration: none;
 }
-
-@media screen and (min-width: 991px){
-h1 {
-  font-size: 22px;
-  padding-top: 35px;
-  padding-bottom: 30px;
-  }
-}
-
-/* map */
-h2 {
+i, p{
   color: #0080ff;
-  float: left;
-  font-weight: 250;
-  margin-top: 3px;
-  padding-top: 40px;
-  margin-left: 5px;
+  font-size: 16px;
 }
-
-@media screen and (min-width: 575px){
-h2 {
-  margin-left: 36px;
-  }
+.gray{
+  color: #404040;
 }
-
+/* header */
+header {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  height:70px;
+  justify-content: space-between;
+  margin: auto;
+  max-width:90%;
+}
 @media screen and (min-width: 991px){
-h2 {
-  margin-left: 205px;
+header {
+  max-width:60%;
   }
 }
-
-/* alarm */
-h3 {
+.title{
+  max-width:50%;
+  padding:25px;
+}
+button{
+  background: none;
+  border: none;
   color: #0080ff;
-  font-weight: 250;
-  margin-left: 85%;
-  margin-top: -4%;    /* this negative margin needs fixin */
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size:18px;
+  padding: 0;
+  text-decoration: none;
 }
-
-@media screen and (min-width: 575px){
-h3 {
-  margin-right: 26px;
-  }
+.right-btn, .left-btn{
+  max-width:15%;
 }
-
+.search-bar {
+   background: #f2f2f2;
+   border-radius: 8px;
+   color:#808080;
+   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+   height: 38px;
+   margin: 0 auto 20px;
+   max-width: 90%;
+   padding:10px;
+}
 @media screen and (min-width: 991px){
-h3 {
-  margin-right: 195px;
+.search-bar {
+  max-width:60%;
   }
 }
-
-h4 {
-   color: #808080;
-   font-weight: 200;
-   font-size: 18px;
-   padding-left: 7px;
-   padding-top: 9px;
-   display: inline-block;
-}
-
-@media screen and (min-width: 575px){
-h4 {
-  margin-left: 14px;
-  padding-top: 14px;
-  }
-}
-
-
 hr {
   border-width: 0.5px;
   color: #f8f8f8;
-  margin-left: 21%;
-  margin-top: -5px;      /* fix this negative margin */
-  margin-bottom: -5px;
+  margin:auto;
+  max-width:90%;
 }
-
-@media screen and (min-width: 575px){
-hr {
-  margin-bottom: -10px;
-  margin-top: -15px;
-  }
-}
-
 @media screen and (min-width: 991px){
 hr {
-  margin-left: 16%;
-  margin-right: 15%;
+  max-width:60%;
   }
 }
-
-
-.arrival {
-  font-size: 16px;
-  font-weight: 300;
-  margin-left: 430%;      /* fix this margin */
-  margin-top: -52%;
-  width: 80px;
+section{
+  align-content: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: auto;
+  max-width: 90%;
+  padding: 20px 0;
 }
-
-@media screen and (min-width: 575px){
-.arrival {
-  font-size: 18px;
-  margin-left: 610%;
-  margin-top: -38%;  /* fix this margin */
-  }
-}
-
 @media screen and (min-width: 991px){
-.arrival {
-  margin-left: 770%;   /* fix this padding */
+section {
+  max-width:60%;
   }
 }
-
-.axe {
-  font-size: 16px;
-  font-weight: 300;
-  margin-left: 425%;
-  margin-top: -20%;    /* fix this negative margin */
-  width: 80px;
-}
-
-@media screen and (min-width: 575px){
-.axe {
-  font-size: 18px;
-  margin-left: 605%;  /* fix this padding */
-  margin-top: -38%;
-  }
-}
-
-@media screen and (min-width: 991px){
-.axe {
-  margin-left: 765%;  /* fix this padding */
-  }
-}
-
-.boldy {
-  color: #404040;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 300;
-  letter-spacing: 1px;
-  margin-left: 96px;
-  margin-top: 7px;
-  width: 300px;
-}
-
-@media screen and (min-width: 575px){
-.boldy {
-  margin-left: 130px;
-  }
-}
-
-@media screen and (min-width: 991px){
-.boldy {
-  margin-left: 147px;
-  }
-}
-
-.bound {
-  color: #404040;
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  padding-top: 10%;
-  padding-left: 130%;   /* fix this padding */
-  width: 300px;
-
-}
-
-@media screen and (min-width: 575px){
-.bound {
-   font-size: 20px;
-  }
-}
-
-@media screen and (min-width: 991px){
-.bound {
-  font-size: 18px;
-  padding-top: 10%;
-  padding-left: 145%;  /* fix this padding */
-  }
-}
-
 .bus-list {
   background: #0080ff;
   border-radius: 18px;
+  flex-grow:0;
   height: 75px;
-  width: 18%;
-  margin: 15px 9px;
-  margin-bottom: 15px;
+  padding:
+  text-decoration: none;
+  width:80px;
 }
-
-.bus-list:nth-last-child(-n+7) {
+.bus-list-gray{
   background: #808080;
+  border-radius: 18px;
+  flex-grow:0;
+  height: 75px;
+  text-decoration: none;
+  width:80px;
 }
-
-@media screen and (min-width: 575px){
-.bus-list {
-  border-radius: 23px;
-  height: 100px;
-  margin: 25px 0 30px 35px;
-  width: 13%;
-  }
-}
-
-@media screen and (min-width: 991px){
-.bus-list {
-  height: 102px;
-  margin-left: 205px;
-  width: 8%;
-  }
-}
-
-.city {
-  color: #404040;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin-top: -60%;     /* fix this negative margin */
-  padding-left: 130%;
-  width: 350px;
-}
-
-@media screen and (min-width: 575px){
-.city {
-  font-size: 22px;
-  margin-top: -35%;   /* fix this negative margin */
-  width: 400px;
-  }
-}
-
-@media screen and (min-width: 991px){
-.city {
-  margin-top: -40%;   /* fix this negative margin */
-  margin-left: 15%;
-  }
-}
-
-
-.hay {
-  font-size: 16px;
-  font-weight: 300;
-  margin-left: 420%;
-  margin-top: -25%;    /* fix this negative margin */
-  width: 80px;
-}
-
-@media screen and (min-width: 575px){
-.hay {
-  font-size: 18px;
-  margin-left: 600%;
-  margin-top: -38%;
-  }
-}
-
-@media screen and (min-width: 991px){
-.hay {
-  margin-left: 760%;
-  }
-}
-
-.freq {
-  color: #0080ff;
-  font-size: 15px;
-  font-weight: 200;
-  font-style: italic;
-  letter-spacing: 1px;
-  margin-left: 96px;
-  margin-top: 8px;
-  width: 200px;
-}
-
-@media screen and (min-width: 575px){
-.freq {
-  margin-left: 130px;
-  }
-}
-
-@media screen and (min-width: 991px){
-.freq {
-  margin-left: 147px;
-  }
-}
-
-.left-arrow {
-  color: #0080ff;
-  float: left;
-  font-size: 25px;
-  margin-left: 10px;
-  padding-top: 40px;
-  display: inline-block;
-}
-
-@media screen and (min-width: 575px){
-.left-arrow {
-  margin-left: 16px;
-  }
-}
-
-@media screen and (min-width: 991px){
-.left-arrow {
-  visibility: hidden;
-  }
-}
-
-
-.no-info {
-  font-size: 16px;
-  font-weight: 300;
-  margin-left: 470%;
-  margin-top: -25%;    /*  fix this negative margin */
-  width: 50px;
-}
-
-@media screen and (min-width: 575px){
-.no-info {
-  font-size: 18px;
-  margin-left: 645%;
-  margin-top: -38%;
-  }
-}
-
-@media screen and (min-width: 991px){
-.no-info {
-  margin-left: 800%;
-  }
-}
-
-
 .number {
   color: white;
   font-size: 25px;
@@ -356,74 +120,64 @@ hr {
   padding-top: 24px;
   letter-spacing: 1px;
 }
-
-@media screen and (min-width: 575px){
-.number {
-  font-size: 28px;
-  padding-top: 33px;
-  }
+.city {
+  color: #404040;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
-
-
+.arrival {
+  color: #404040;
+  flex-grow:0;
+  font-size: 18px;
+  font-weight: 300;
+}
+.axe {
+  font-size: 16px;
+  font-weight: 300;
+}
+.boldy {
+  color: #404040;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding:10px 0;
+}
+.bound {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding:10px 0;
+}
+.hay {
+  font-size: 16px;
+  font-weight: 300;
+}
+.freq {
+  color: #0080ff;
+  font-size: 15px;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.na {
+  color: #808080;
+  font-size: 15px;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.no-info {
+  font-size: 16px;
+  font-weight: 300;
+}
 .orin {
   color: #0080ff;
-  margin-top: -17px;    /* fix this negative margin */
-  margin-left: 520%;
-}
-
-
-@media screen and (min-width: 575px){
-.orin {
-  font-size: 20px;
-  margin-right: 80%;
-  margin-top: -18px;
+  flex-grow:2;
+  padding-left: 50px;
   }
-}
 
-@media screen and (min-width: 991px){
-.orin {
-  margin-left: 850%;
-  }
-}
-
-.orin-gray {
-  color: #808080;
-  margin-top: -17px;
-  margin-left: 520%;
-}
-
-.search-bar {
-   border-radius: 8px;
-   background: #f2f2f2;
-   height: 38px;
-   margin: 20px 10px;
-   width: 96%;
-}
-
-@media screen and (min-width: 575px){
-.search-bar {
-  height: 43px;
-  margin-left: 36px;
-  width: 91%;
-  }
-}
-
-@media screen and (min-width: 991px){
-.search-bar {
-  margin-left: 16%;
-  margin-bottom: 40px;
-  width: 69%;
-  }
-}
-
-.search-bar i {
-  font-size: 17px;
-  color: #808080;
-  margin-left: 10px;
-}
-
-@media screen and (min-width: 991px){
-.split {
-  margin-left: 50%;
-  }
+.bus-list:last-child(4) {
+  background: #808080;
 }
