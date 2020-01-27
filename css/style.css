@@ -1,47 +1,10 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
 body {
   background-color: white;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 19px;
-}
-
-h1 {
-  font-size: 19px;
-  font-weight: 500;
-}
-
-li{
-  list-style: none;
-  text-decoration: none;
-}
-i, p{
-  color: #0080ff;
-  font-size: 16px;
-}
-.gray{
-  color: #404040;
-}
-/* header */
-header {
-  align-content: center;
-  display: flex;
-  flex-direction: row;
-  height:70px;
-  justify-content: space-between;
-  margin: auto;
-  max-width:90%;
-}
-@media screen and (min-width: 991px){
-header {
-  max-width:60%;
-  }
-}
-.title{
-  max-width:50%;
-  padding:25px;
 }
 button{
   background: none;
@@ -52,43 +15,65 @@ button{
   padding: 0;
   text-decoration: none;
 }
-.right-btn, .left-btn{
-  max-width:15%;
-}
-.search-bar {
-   background: #f2f2f2;
-   border-radius: 8px;
-   color:#808080;
-   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-   height: 38px;
-   margin: 0 auto 20px;
-   max-width: 90%;
-   padding:10px;
-}
-@media screen and (min-width: 991px){
-.search-bar {
-  max-width:60%;
-  }
+h1 {
+  font-size: 19px;
+  font-weight: 500;
 }
 hr {
   border-width: 0.5px;
   color: #f8f8f8;
   margin:auto;
+}
+@media screen and (min-width: 575px){
+hr {
   max-width:90%;
+  }
 }
 @media screen and (min-width: 991px){
 hr {
   max-width:60%;
   }
 }
-section{
+i {
+  color: #0080ff;
+  font-size: 16px;
+}
+li{
+  list-style: none;
+  text-decoration: none;
+}
+header {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  height:70px;
+  justify-content: space-between;
+  margin: auto;
+  max-width:95%;
+}
+@media screen and (min-width: 575px){
+header {
+  max-width:90%;
+  }
+}
+@media screen and (min-width: 991px){
+header {
+  max-width:60%;
+  }
+}
+section {
   align-content: center;
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
   margin: auto;
-  max-width: 90%;
   padding: 20px 0;
+  max-width: 95%;
+}
+@media screen and (min-width: 575px){
+section {
+  max-width: 90%;
+  }
 }
 @media screen and (min-width: 991px){
 section {
@@ -100,25 +85,19 @@ section {
   border-radius: 18px;
   flex-grow:0;
   height: 75px;
-  padding:
   text-decoration: none;
   width:80px;
 }
-.bus-list-gray{
+.bus-list:last-child(4) {
+  background: #808080;
+}
+.bus-list-gray {
   background: #808080;
   border-radius: 18px;
   flex-grow:0;
   height: 75px;
   text-decoration: none;
   width:80px;
-}
-.number {
-  color: white;
-  font-size: 25px;
-  font-weight: 600;
-  text-align: center;
-  padding-top: 24px;
-  letter-spacing: 1px;
 }
 .city {
   color: #404040;
@@ -129,10 +108,6 @@ section {
   color: #404040;
   flex-grow:0;
   font-size: 18px;
-  font-weight: 300;
-}
-.axe {
-  font-size: 16px;
   font-weight: 300;
 }
 .boldy {
@@ -151,8 +126,15 @@ section {
   padding:10px 0;
 }
 .hay {
-  font-size: 16px;
+  color: #404040;
+  font-size: 18px;
   font-weight: 300;
+}
+.hay i {
+  color: gray;
+}
+.gray{
+  color: #404040;
 }
 .freq {
   color: #0080ff;
@@ -172,12 +154,50 @@ section {
   font-size: 16px;
   font-weight: 300;
 }
+.number {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 24px;
+  letter-spacing: 1px;
+}
 .orin {
   color: #0080ff;
   flex-grow:2;
+  padding-left: 20px;
+}
+@media screen and (min-width: 575px){
+.orin {
   padding-left: 50px;
   }
-
-.bus-list:last-child(4) {
-  background: #808080;
+}
+.right-btn, .left-btn{
+  max-width:20%;
+}
+.search-bar {
+  background: #f2f2f2;
+  border-radius: 8px;
+  color:#808080;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  height: 38px;
+  margin: 0 auto 10px;
+  padding:10px;
+  max-width:95%;
+}
+@media screen and (min-width: 575px){
+.search-bar {
+   max-width: 90%;
+   margin: 0 auto 20px;
+  }
+}
+@media screen and (min-width: 991px){
+.search-bar {
+  max-width:60%;
+  margin: 0 auto 20px;
+  }
+}
+.title{
+  max-width:50%;
+  padding:25px;
 }
