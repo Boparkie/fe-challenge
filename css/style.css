@@ -88,9 +88,7 @@ section {
   text-decoration: none;
   width:80px;
 }
-.bus-list:last-child(4) {
-  background: #808080;
-}
+
 .bus-list-gray {
   background: #808080;
   border-radius: 18px;
@@ -130,9 +128,7 @@ section {
   font-size: 18px;
   font-weight: 300;
 }
-.hay i {
-  color: gray;
-}
+
 .gray{
   color: #404040;
 }
